@@ -21,5 +21,8 @@ namespace RuriLib.Models.Environment
 
         /// <summary>Alias for the list of names of the variable that will be created by slicing the input data.</summary>
         public string[] SlicesAlias { get; set; } = Array.Empty<string>();
+
+        public const string MacAddress = "macaddress";
+        
     }
 }
